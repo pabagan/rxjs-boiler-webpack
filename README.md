@@ -1,4 +1,4 @@
-# Webpack + Babel configuration for latest ECMAs
+# Webpack + Babel configuration for latest ECMAs + RxJs boiler
 
 I am maintaining this one just to maintain a configuration able to run latest ECMA (6/7)features. Also to play:
 

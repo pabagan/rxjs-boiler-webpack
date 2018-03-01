@@ -1,27 +1,27 @@
 {
-  "name": "webpack-ecmas",
-  "version": "1.0.0",
-  "description": "Webpack and Babel for the latest ECMAs at browser",
-  "main": "app.js",
-  "scripts": {
-    "start": "npm run server && npm run watch",
-    "server": "live-server --port=8000",
-    "watch": "webpack -w"
-  },
-  "author": "@pabagan",
-  "license": "ISC",
-  "devDependencies": {
-    "@babel/core": "^7.0.0-beta.39",
-    "@babel/plugin-transform-runtime": "^7.0.0-beta.39",
-    "@babel/preset-env": "^7.0.0-beta.39",
-    "babel-loader": "^8.0.0-beta.0",
-    "webpack": "^3.10.0",
-    "webpack-bundle-analyzer": "^2.10.0",
-    "webpack-dev-server": "^2.11.1"
-  },
-  "dependencies": {
-    "@babel/runtime": "^7.0.0-beta.39",
-    "jquery": "^3.1.0",
-    "rxjs": "^5.0.0-beta.12"
-  }
+    "name": "rxjs-demos-webpack-ecmas",
+    "version": "1.0.0",
+    "description": "RxJs demos with Webpack and Babel for the latest ECMAs at browser",
+    "main": "app.js",
+    "scripts": {
+        "start": "npm run server && npm run watch",
+        "server": "live-server --port=8000",
+        "watch": "webpack -w"
+    },
+    "author": "@pabagan",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.0.0-beta.39",
+        "@babel/plugin-transform-runtime": "^7.0.0-beta.39",
+        "@babel/preset-env": "^7.0.0-beta.39",
+        "babel-loader": "^8.0.0-beta.0",
+        "webpack": "^3.10.0",
+        "webpack-bundle-analyzer": "^2.10.0",
+        "webpack-dev-server": "^2.11.1"
+    },
+    "dependencies": {
+        "@babel/runtime": "^7.0.0-beta.39",
+        "jquery": "^3.1.0",
+        "rxjs": "^5.0.0-beta.12"
+    }
 }
